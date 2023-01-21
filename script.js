@@ -25,7 +25,7 @@ function myval(){
     }else{
         erroremail.innerText="";
     }
-   /*  if(!pattern.test(pass)){
+    if(!pattern.test(pass)){
         errorpass.innerText="Passwords should have at least 1 capital letter, 1 small, 1 number and 1 special characters";
         return false;
     }else if(pass==name && pass==email){
@@ -33,7 +33,7 @@ function myval(){
         return false;
     }else{
         errorpass.innerText="";
-    } */
+    }
     if(pass!=cpass){
         errorcpass.innerText="Passwords and confirm password not same";
         return false;
