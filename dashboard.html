@@ -32,11 +32,10 @@
             let randeomstring =generateString(10);
             var ques = document.getElementById("table").innerHTML=randeomstring;
             let tokem =document.getElementById("token").value;
-            if(randeomstring==token){
+            if(randeomstring==tokem){
                 alert("verify User");
             }else{
-                
-                alert(localStorage.getItem('formData')).some(data => data.name);
+                alert("not verify User");
             }
     </script>
 </body>
